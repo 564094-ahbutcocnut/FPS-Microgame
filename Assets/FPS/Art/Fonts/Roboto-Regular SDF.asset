@@ -2687,7 +2687,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Roboto-Regular SDF Material
-  m_Shader: {fileID: 4800000, guid: 419f38a65624a3e45b96b5d956fdd9bb, type: 3}
+  m_Shader: {fileID: 4800000, guid: a4d8d31aecf938048b2f9876df2ecb15, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -2805,7 +2805,7 @@ Texture2D:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
   m_IsAlphaChannelOptional: 0
-  serializedVersion: 3
+  serializedVersion: 4
   m_Width: 512
   m_Height: 512
   m_CompleteImageSize: 262144
