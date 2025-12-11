@@ -91,3 +91,15 @@ The following packages were added:
   com.unity.probuilder@6.0.4
   com.unity.render-pipelines.core@17.0.4
   com.unity.render-pipelines.universal@17.0.4
+
+=== Thu Dec 11 12:13:30 2025
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were updated:
+  com.unity.ai.navigation from version 2.0.8 to 2.0.9
+  com.unity.learn.iet-framework from version 4.0.4 to 5.0.2
+  com.unity.probuilder from version 6.0.6 to 6.0.7
+  com.unity.render-pipelines.universal from version 17.0.4 to 17.2.0
+  com.unity.test-framework from version 1.5.1 to 1.6.0
