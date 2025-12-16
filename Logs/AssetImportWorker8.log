@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/respin/6000.2.6f2-cc51a95c03' branch; Version is '6000.2.6f2 (4a4dcaec6541) revision 4869578'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-564094" at "2025-12-11T13:59:02.2733765Z"
-OS: 'Windows 11  (10.0.26100) 64bit Education' Language: 'en' Physical Memory: 16309 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Owner" at "2025-12-12T12:13:22.1481909Z"
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32690 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-12-11T13:59:02Z
+Date: 2025-12-12T12:13:22Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
@@ -13,23 +13,23 @@ C:\Program Files\Unity\Hub\Editor\6000.2.6f2\Editor\Unity.exe
 -name
 AssetImportWorker8
 -projectPath
-C:/games/FPS-Microgame
+C:/Users/Owner/source/repos/This is the final design of my project/FPS-Microgame
 -logFile
 Logs/AssetImportWorker8.log
 -srvPort
-64358
+59312
 -licensingIpc
-LicenseClient-564094
+LicenseClient-Owner
 -job-worker-count
-5
+7
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-Successfully changed project path to: C:/games/FPS-Microgame
-C:/games/FPS-Microgame
+Successfully changed project path to: C:/Users/Owner/source/repos/This is the final design of my project/FPS-Microgame
+C:/Users/Owner/source/repos/This is the final design of my project/FPS-Microgame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -65,103 +65,95 @@ C:/games/FPS-Microgame
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16348]  Target information:
+Player connection [7444]  Target information:
 
-Player connection [16348]  * "[IP] 172.27.186.40 [Port] 0 [Flags] 2 [Guid] 2004131931 [EditorId] 2004131931 [Version] 1048832 [Id] WindowsEditor(7,L-CB346-21266) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7444]  * "[IP] 192.168.0.8 [Port] 0 [Flags] 2 [Guid] 1776751533 [EditorId] 1776751533 [Version] 1048832 [Id] WindowsEditor(7,TOWER-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16348] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16348] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 5
+Player connection [7444] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7444] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1972, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Owner"
+[Licensing::IpcConnector] LicenseClient-Owner channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Owner-6000.2.6" at "2025-12-12T12:13:22.210874Z"
 Library Redirect Path: Library/
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 1864, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 20384, path: "C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.3+a4e98f1
-  Session Id:              582157d3ada242cfaa2c251b96903c74
-  Correlation Id:          4aceea1a401b7fddc774167972f0fdb2
-  External correlation Id: 4557850505106317337
-  Machine Id:              xLEM8uUDJ5rugQlyVumXe5JY9fg=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-564094" (connect: 0.00s, validation: 0.00s, handshake: 0.27s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-564094-notifications" at "2025-12-11T13:59:02.5509155Z"
-[Licensing::Module] Licensing Background thread has ended after 0.28s
+  Version:                 1.17.2+ff71f16
+  Session Id:              0cf24f0386684d229f77badbca301902
+  Correlation Id:          098bf676b2845ed4d2f768686e73c3e9
+  External correlation Id: 331058522780263995
+  Machine Id:              ct94YDQ96k+EYiiSHe3SCSVuYUU=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Owner-6000.2.6" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Owner-6000.2.6-notifications" at "2025-12-12T12:13:22.2284188Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 68.14 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.6f2 (4a4dcaec6541)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/games/FPS-Microgame/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Owner/source/repos/This is the final design of my project/FPS-Microgame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x2188)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     3937 MB
-    Driver:   32.0.15.8129
+    VRAM:     12115 MB
+    Driver:   32.0.15.6614
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: E4-5EVD-TUDB-EX42-UW92-XXXX
-  Product: Unity Education
-  Type: ULF
-  Expiration: 2026-11-08T22:20:47Z
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.6f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.008300 seconds.
-- Loaded All Assemblies, in  1.438 seconds
-[usbmuxd] Start listen thread
-[usbmuxd] Listen thread started
-Native extension for iOS target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 575 ms
+Registered in 0.002686 seconds.
+- Loaded All Assemblies, in  0.378 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.237 seconds
-Domain Reload Profiling: 2671ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.286 seconds
+Domain Reload Profiling: 660ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (208ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (70ms)
-	LoadAllAssembliesAndSetupDomain (965ms)
-		LoadAssemblies (169ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (137ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (961ms)
-			TypeCache.Refresh (959ms)
-				TypeCache.ScanAssembly (938ms)
+		AnalyzeDomain (131ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1237ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (286ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1175ms)
+		SetupLoadedEditorAssemblies (246ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (776ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (177ms)
-			ProcessInitializeOnLoadMethodAttributes (105ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,12 +163,19 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.259 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
-Native extension for iOS target not found
-Native extension for Android target not found
+[Licensing::Module] License group:
+  Id: F4-X28W-SJW3-JP66-7VYA-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 5773401021988-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.739 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
@@ -199,1289 +198,126 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 [MODES] ModeService[none].LoadModes
 [MODES] Loading mode Default (0) for mode-current-id-fps
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.182 seconds
-Domain Reload Profiling: 2430ms
-	BeginReloadAssembly (240ms)
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1454ms
+	BeginReloadAssembly (176ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (870ms)
-		LoadAssemblies (542ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (350ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (461ms)
-			TypeCache.Refresh (380ms)
-				TypeCache.ScanAssembly (358ms)
-			BuildScriptInfoCaches (60ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1183ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (151ms)
+			BuildScriptInfoCaches (44ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (723ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (882ms)
+		SetupLoadedEditorAssemblies (560ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (181ms)
-			ProcessInitializeOnLoadAttributes (551ms)
-			ProcessInitializeOnLoadMethodAttributes (119ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5282 unused Assets / (4.9 MB). Loaded Objects now: 6039.
-Memory consumption went from 136.3 MB to 131.4 MB.
-Total: 15.214300 ms (FindLiveObjects: 1.158700 ms CreateObjectMapping: 0.771000 ms MarkObjects: 8.985800 ms  DeleteObjects: 4.297100 ms)
+Unloading 5282 unused Assets / (5.8 MB). Loaded Objects now: 6037.
+Memory consumption went from 136.1 MB to 130.4 MB.
+Total: 14.381500 ms (FindLiveObjects: 0.973700 ms CreateObjectMapping: 1.205700 ms MarkObjects: 8.550500 ms  DeleteObjects: 3.650700 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 268172.957901 seconds.
-  path: Assets/ukv3.fbx
-  artifactKey: Guid(650b075162dcd804f980891368749fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/ukv3.fbx using Guid(650b075162dcd804f980891368749fc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) (ScriptedImporter) -> (artifact id: '2ea85be360724eb6fbe7179aa979e87c') in 0.2838988 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 69
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_SpinningRadar_Royal.mat
-  artifactKey: Guid(53f9a4dc685e920488b4c4af6b74d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_SpinningRadar_Royal.mat using Guid(53f9a4dc685e920488b4c4af6b74d9dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)CommandBuffer: temporary render texture  not found while executing  (Copy source)
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.791 seconds
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+The project currently uses the compatibility mode where the Render Graph API is disabled. Support for this mode will be removed in future Unity versions. Migrate existing ScriptableRenderPasses to the new RenderGraph API. After the migration, disable the compatibility mode in Edit > Projects Settings > Graphics > Render Graph.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEngine.Rendering.Universal.WarnUsingNonRenderGraph:EmitConsoleWarning () (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs:432)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 432)
 
-CommandBuffer: temporary render texture  not found while executing  (Copy destination)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.Rendering.ScriptableRenderContext:Submit ()
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCamera (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Rendering.Universal.UniversalCameraData) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:891)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,UnityEngine.Rendering.Universal.UniversalAdditionalCameraData&,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:691)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:RenderSingleCameraInternal (UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera,bool) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:666)
-UnityEngine.Rendering.Universal.UniversalRenderPipeline:Render (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs:483)
-UnityEngine.Rendering.RenderPipeline:InternalRender (UnityEngine.Rendering.ScriptableRenderContext,System.Collections.Generic.List`1<UnityEngine.Camera>)
-UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,UnityEngine.Object,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
-UnityEngine.Camera:Render ()
-UnityEditor.PreviewRenderUtility:Render (bool,bool)
-UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
-UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[./Library/PackageCache/com.unity.render-pipelines.universal@1e1527b3a17b/Runtime/UniversalRenderPipeline.cs line 891]
-
- -> (artifact id: 'f536626c5f97d4b2db67b47caf9e84fe') in 0.5715283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_SingleJet.mat
-  artifactKey: Guid(dd585b9243c5d08438ecaa4cc76edaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_SingleJet.mat using Guid(dd585b9243c5d08438ecaa4cc76edaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7742c17353bd15bf4d6bf80c744ebf2d') in 0.0366868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FPS/Art/Materials/Level/Floor_Grey.mat
-  artifactKey: Guid(993b4056d6b0f8441bc26fe63f4babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Level/Floor_Grey.mat using Guid(993b4056d6b0f8441bc26fe63f4babd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37f2b88aa41fcc58374a05775207ffa') in 0.0225421 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/ModAssets/Fonts/Orbitron-Regular SDF.asset
-  artifactKey: Guid(d393f12bd75574ef991a7a2c74b29c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Fonts/Orbitron-Regular SDF.asset using Guid(d393f12bd75574ef991a7a2c74b29c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd1129add240c8579b732ee76faee4cc') in 0.0449565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/MachineBlue.mat
-  artifactKey: Guid(3b1902cf581e782438ddf0a88d2fcf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/MachineBlue.mat using Guid(3b1902cf581e782438ddf0a88d2fcf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2db7b4f9bcab629b9ea6c9725b51b11') in 0.020603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/FPS/Art/Materials/VFX/MuzzleFlash.mat
-  artifactKey: Guid(eb52fb0b8eb988248aac01ce3d48f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/MuzzleFlash.mat using Guid(eb52fb0b8eb988248aac01ce3d48f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5aa48d9f1e54765736920d25486c35f') in 0.0514095 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/QuasarTrail.mat
-  artifactKey: Guid(0254dc02d58c2754ca434a10505bdb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/QuasarTrail.mat using Guid(0254dc02d58c2754ca434a10505bdb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ea2189d551daf0766350d05498fe4f9') in 0.0206773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/FPS/Art/Fonts/Roboto-Black SDF.asset
-  artifactKey: Guid(75063828274bdb145a55f6dd2f22e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Fonts/Roboto-Black SDF.asset using Guid(75063828274bdb145a55f6dd2f22e8b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29967e62a1f91a9d82b5173001e7caa9') in 0.0425809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Detection_Module_TV_Screen.mat
-  artifactKey: Guid(d2cd77ea0c82c2347ad778d45713be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Detection_Module_TV_Screen.mat using Guid(d2cd77ea0c82c2347ad778d45713be10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2ad0192517c8806b0abbbb5b0ce7ea6') in 0.0558962 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat
-  artifactKey: Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingOcclusion.mat using Guid(b51db210fe78df745a372851b3db949e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9886c7a4ffb036dcc4ae1013f200ef5f') in 0.0214483 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_Material_TransparentCanister.mat
-  artifactKey: Guid(291e68244080dc748a95e33cf6ab8a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRain_Material_TransparentCanister.mat using Guid(291e68244080dc748a95e33cf6ab8a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bed11b977326b66a7bd36687e04798f') in 0.1223059 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph
-  artifactKey: Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph using Guid(124c112a6e8f1a54e8b0870e881b56d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59944e23fe589864efef5a41ade6ba65') in 1.1229303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot2_Royal.mat
-  artifactKey: Guid(13d96bc074e4eb04db61801ebefa862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot2_Royal.mat using Guid(13d96bc074e4eb04db61801ebefa862c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab1cf4650782fa69395ae0e16681dfde') in 0.7670478 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FPS/Art/Materials/Enemies/Turret_Glass.mat
-  artifactKey: Guid(b4ed14065adcea64a970450dc529bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Enemies/Turret_Glass.mat using Guid(b4ed14065adcea64a970450dc529bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'decbf31249d3eed9143e5aa6bcb6072d') in 0.0337171 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot6_Royal.mat
-  artifactKey: Guid(ba6f0f05f9a2054418f5a631bf12a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot6_Royal.mat using Guid(ba6f0f05f9a2054418f5a631bf12a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '489058d7f5cf0ae3559628cc9da55603') in 0.0281973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_PhotonCannon_Royal.mat
-  artifactKey: Guid(d2f7ed2dacf6b044785df09b4417b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_PhotonCannon_Royal.mat using Guid(d2f7ed2dacf6b044785df09b4417b3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '996306fda90ad3f3b966f464274c927d') in 0.0799956 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph
-  artifactKey: Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteLit.shadergraph using Guid(24a73dccd7b6fad4798be282f96a21f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '668134c66749a0cf84cf78828b2e628b') in 0.2583234 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot5.mat
-  artifactKey: Guid(a6c63e66b2fe98f498a8b2db051215e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot5.mat using Guid(a6c63e66b2fe98f498a8b2db051215e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44b125cfe686bf3e68584fa0ee80ff35') in 0.0574114 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Materials/Vaporizer_Liquid.mat
-  artifactKey: Guid(cea937f6c2f463941a4aa5fc666254bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Materials/Vaporizer_Liquid.mat using Guid(cea937f6c2f463941a4aa5fc666254bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ee559faf449a03fc75ffba1bb0ac015') in 0.0549949 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_Railgun.mat
-  artifactKey: Guid(a24cef88cba1f5341bc5764f36b6ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_Railgun.mat using Guid(a24cef88cba1f5341bc5764f36b6ad23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b01202546b7281a750c20a624723d18') in 0.0300131 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/ModAssets/Materials/Totems/M_StatueWall.mat
-  artifactKey: Guid(754ea6a657fbb274b8ce464f04329736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/Totems/M_StatueWall.mat using Guid(754ea6a657fbb274b8ce464f04329736) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '894ab78092682560004ba5c62dbb9bf9') in 0.0716633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/Red.mat
-  artifactKey: Guid(8d516a09f86d2494ab836bfcb0892d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/Red.mat using Guid(8d516a09f86d2494ab836bfcb0892d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32dd32c9ba419ae5384944f82d7e0948') in 0.0205455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AddOns/MgFPS_SniperRifle/SniperRifle_MeshesAndTextures/Weapon_SniperRifle.mat
-  artifactKey: Guid(7a269aee6bef59b4ab0070cde15639bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_SniperRifle/SniperRifle_MeshesAndTextures/Weapon_SniperRifle.mat using Guid(7a269aee6bef59b4ab0070cde15639bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ab4d4e03fe217349ce2dcf8b1375bbd') in 0.0268409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashGreen.prefab
-  artifactKey: Guid(9f671b22f25370048a18fb1f821294ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashGreen.prefab using Guid(9f671b22f25370048a18fb1f821294ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd700bdb64e8d22e61846f3716c16a31a') in 0.0315316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_FocusPoint.prefab
-  artifactKey: Guid(7bbe635e3c15c3642b08f81b9f628972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_FocusPoint.prefab using Guid(7bbe635e3c15c3642b08f81b9f628972) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9ebd60ef92176ba6990127cf354ea5c') in 0.019766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_MuzzleFlash.prefab
-  artifactKey: Guid(c6745e43eec8eaf438dab5654972c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_MuzzleFlash.prefab using Guid(c6745e43eec8eaf438dab5654972c3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d111e0e3f57e50b15af60624066fe18') in 0.0344326 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_Charge.prefab
-  artifactKey: Guid(f57683642da875844a7a88e93c2dc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_Railgun_Charge.prefab using Guid(f57683642da875844a7a88e93c2dc673) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ff9c9dcf395f5f70192a1ce518e191') in 0.0188293 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/FPS/Prefabs/Weapons/Weapon_Launcher.prefab
-  artifactKey: Guid(3439b4874b7b44e4eb2216314c46b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Weapons/Weapon_Launcher.prefab using Guid(3439b4874b7b44e4eb2216314c46b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1577ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (793ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (646ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Builtin_TerrainVisualization' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.23 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'a1f8a3270fc93f0e7d7d407ad5224494') in 0.4116698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 190
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/FPS/Prefabs/Level/Walls/Wall_4m.prefab
-  artifactKey: Guid(7ba64c0944716c24f911914e2e6af7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Walls/Wall_4m.prefab using Guid(7ba64c0944716c24f911914e2e6af7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7013c95565ce7e7a520cb1c8204bd1e') in 0.0327357 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab
-  artifactKey: Guid(22ee8966e4c728a418415db5731c87ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/BaseObjects/Wall_1m_Mesh.prefab using Guid(22ee8966e4c728a418415db5731c87ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0825a7b367af8db090b0bcccccc0fd49') in 0.032288 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FPS/Art/Materials/SpeedLine.mat
-  artifactKey: Guid(51b4b159ffad18a408fe75b6f8ccbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/SpeedLine.mat using Guid(51b4b159ffad18a408fe75b6f8ccbc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3cb6c4b78fec7f6db8e90c739b5ee30') in 0.033548 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat
-  artifactKey: Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/InvisibleFace.mat using Guid(978bbcf5050244f1b95128c04103f628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7742e661967a67c1992adc514deedf22') in 0.0083883 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltAdditive.mat
-  artifactKey: Guid(dc6e18d075e239b4a91c2b0ad8e67bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltAdditive.mat using Guid(dc6e18d075e239b4a91c2b0ad8e67bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9dee2f3d34f4039edd30c1cd07a91a99') in 0.0322925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Spell.mat
-  artifactKey: Guid(a67462ff100a3854dae065a1e5b1f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Spell.mat using Guid(a67462ff100a3854dae065a1e5b1f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '377ef79434466ede5f2f6d2446327707') in 0.0839613 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_Glow.mat
-  artifactKey: Guid(d6e1e69edecba344eaaff297743c9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_PhotonCannon_Projectile_Glow.mat using Guid(d6e1e69edecba344eaaff297743c9506) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6e7389ff1e77abf85ab20f0fe0d3bbb') in 0.0311375 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinJet_Royal.mat
-  artifactKey: Guid(8597894f99021014c927e772a271552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinJet_Royal.mat using Guid(8597894f99021014c927e772a271552c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4954b9a845b06e48755287af0b81910f') in 0.0657341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FPS/Art/Materials/ObjectiveReachPoint.mat
-  artifactKey: Guid(f7ca4b4869bf6e34c82313b54df6d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/ObjectiveReachPoint.mat using Guid(f7ca4b4869bf6e34c82313b54df6d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '291d0df2a979493190c5fee343af0b40') in 0.0203868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf
-  artifactKey: Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf using Guid(5e63515167650a541b309ba3bfd4db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9fee749b1ce0114cf14b0b6b9d30816') in 0.0145044 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Materials/Quasar_Main.mat
-  artifactKey: Guid(3a79b9e71aa710748b7cec4c4201f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Materials/Quasar_Main.mat using Guid(3a79b9e71aa710748b7cec4c4201f6ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a24d58a31f97ae264778661f7ec9e6da') in 0.1251036 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinJet.mat
-  artifactKey: Guid(c7973a091e3e036429736d066bf26267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinJet.mat using Guid(c7973a091e3e036429736d066bf26267) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa3547b37212dd33b9c34fdb7b4773e1') in 0.0294314 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/ModAssets/Materials/Custom Materials/Metal Silver.mat
-  artifactKey: Guid(346183a72a1454a878a57ebb8b961c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/Custom Materials/Metal Silver.mat using Guid(346183a72a1454a878a57ebb8b961c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa25fe573d18c8bd32735f53bcc9f51f') in 0.0216836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph
-  artifactKey: Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/2D/VFXSpriteUnlit.shadergraph using Guid(d7288f66e4fb0634c9afef98c31b722a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '68cead8129ece0c4059135a04b56e01e') in 0.1765303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot2.mat
-  artifactKey: Guid(91f93a0b1f38e634fa8835e5ecbba2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot2.mat using Guid(91f93a0b1f38e634fa8835e5ecbba2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b403a1fb2452fd25e5195349d74cc3e') in 0.0083219 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab
-  artifactKey: Guid(91732847dbb8d924185dc7bf4516509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Walls/Wall_DoorLarge.prefab using Guid(91732847dbb8d924185dc7bf4516509c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fab08f4604b066b6c5c43ac4e6d086bd') in 0.0179272 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/White.mat
-  artifactKey: Guid(f96821bbefeea864b9b418af4b8615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials/White.mat using Guid(f96821bbefeea864b9b418af4b8615ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bea08388aff9d24c8e83f061e5ba9ef') in 0.0188921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FPS/Art/Materials/VFX/Wireframe_Cage.mat
-  artifactKey: Guid(d737cdf1ca21a1941a07c6b9a9b5f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/Wireframe_Cage.mat using Guid(d737cdf1ca21a1941a07c6b9a9b5f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b438554fbf244f1016140996021c8f27') in 0.0192419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat
-  artifactKey: Guid(378d0d996297d3146b8a2ec85e9065ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Weapons/WeaponBlaster.mat using Guid(378d0d996297d3146b8a2ec85e9065ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c6e6c5c2a716957239fb6b5d8a3376a') in 0.0210393 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat
-  artifactKey: Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Unlit-Default.mat using Guid(9dfc825aed78fcd4ba02077103263b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f85fc8d45ccdaf1bb84f51b33cbe781c') in 0.0186636 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FPS/Art/Materials/Weapons/WeaponLauncher.mat
-  artifactKey: Guid(22f11abeab840ed4c95b6e653f74f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Weapons/WeaponLauncher.mat using Guid(22f11abeab840ed4c95b6e653f74f8ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48fd75393fa4b7501feaa3a9d9b623ac') in 0.008159 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Enemy_Boss_Body.mat
-  artifactKey: Guid(ac53f4c9ab97f814b89c2db593eef598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Enemy_Boss_Body.mat using Guid(ac53f4c9ab97f814b89c2db593eef598) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600edf09b3536708ef42215ebedc2d9d') in 0.0344449 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/CodeMonkey/KeyDoorSystem/Materials/KeyBlue.mat
-  artifactKey: Guid(c129b22503181314a974639056e4da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodeMonkey/KeyDoorSystem/Materials/KeyBlue.mat using Guid(c129b22503181314a974639056e4da41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0fd527127c0ea10470977819255ce32') in 0.0225849 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Spark.mat
-  artifactKey: Guid(3ea2ebe448a58f640a64a091bce65892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Magic_Spark.mat using Guid(3ea2ebe448a58f640a64a091bce65892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '896af3dff7c8d485ab8c128b62a720d6') in 0.0306468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FPS/Prefabs/Level/MainLvl/Section2/Walls_Entry.prefab
-  artifactKey: Guid(a33d95ac04c59de42a7a880bd53d42d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/MainLvl/Section2/Walls_Entry.prefab using Guid(a33d95ac04c59de42a7a880bd53d42d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e2a50560d332f586b06d4f05195a64b') in 0.0233316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 438
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_MuzzleFlash.mat
-  artifactKey: Guid(1c09ac74e97f4cc4fae6c387c7e21c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_MuzzleFlash.mat using Guid(1c09ac74e97f4cc4fae6c387c7e21c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1dd7fa0047ca5235cd7231d9dd4f8a') in 0.0218513 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf
-  artifactKey: Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Regular.ttf using Guid(30dc370b164eefc43b95744fc796dad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4e8bafddd9541b64ca7d1b24e01d43c') in 0.01172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/FPS/Art/Materials/VFX/Sun.mat
-  artifactKey: Guid(8da422a2fd1750842899fc4b5d7f9161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/Sun.mat using Guid(8da422a2fd1750842899fc4b5d7f9161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '104c54d6d5d975913a1171cd86064ce3') in 0.0323285 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FPS/Prefabs/VFX/VFX_OverheatPrimary.prefab
-  artifactKey: Guid(21c8bd050f24da54285f8a3987ee6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/VFX/VFX_OverheatPrimary.prefab using Guid(21c8bd050f24da54285f8a3987ee6253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e1a9c3a40ad1fa9f9bb264213985dc4') in 0.0101908 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab
-  artifactKey: Guid(31d97e822763d1f4cb769f7e3f7f7333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Weapons/Weapon_Shotgun.prefab using Guid(31d97e822763d1f4cb769f7e3f7f7333) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '92616cbcb577da12f2e65dde34160592') in 0.0984857 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 155
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/ModAssets/Fonts/Raleway-Regular SDF.asset
-  artifactKey: Guid(2abf75d6e0d8a4aa6910fae6ee5d638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Fonts/Raleway-Regular SDF.asset using Guid(2abf75d6e0d8a4aa6910fae6ee5d638b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f404bdb0a9b381372c173d6c32516b3') in 0.0268569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/FPS/Prefabs/Level/Walls/Wall_Door.prefab
-  artifactKey: Guid(6a26c84054df0e641b1d0f7c96d366e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Walls/Wall_Door.prefab using Guid(6a26c84054df0e641b1d0f7c96d366e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6438ed024c606e9f1ac1deb60e6440f8') in 0.0203816 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_Circle.mat
-  artifactKey: Guid(1710584407751bd4581ec9e23eb95330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_Circle.mat using Guid(1710584407751bd4581ec9e23eb95330) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '321d17ab83001c6f3f8af6e0956a3a7a') in 0.0360021 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_PhotonCannon.mat
-  artifactKey: Guid(251d19c0d73fdc54c946c88ec1456917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_PhotonCannon.mat using Guid(251d19c0d73fdc54c946c88ec1456917) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f96d7290a8fbce20d9d407a94cf0661') in 0.0305079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSparkTrail.mat
-  artifactKey: Guid(b24ec026ef038ea45b4d6937d7b6ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSparkTrail.mat using Guid(b24ec026ef038ea45b4d6937d7b6ff6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b03e0b934707d962c59581142187e9a8') in 0.0175981 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FPS/Art/Materials/Enemies/Turret_Body.mat
-  artifactKey: Guid(bc52f7878b77b454787353158253aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Enemies/Turret_Body.mat using Guid(bc52f7878b77b454787353158253aa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4f349245906538f04f5a80ffda6cb7a') in 0.0518732 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf
-  artifactKey: Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Italic.ttf using Guid(c839255fc8f6b4b4d90bf8c1af9f9bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b069c935abfbe09111fda44b73cd81f1') in 0.0121568 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Smoke.mat
-  artifactKey: Guid(6d347e89533a0274884ca0c0a1423bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Smoke.mat using Guid(6d347e89533a0274884ca0c0a1423bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '655eac8d132a56b060e1f0504db133b2') in 0.0505718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/FPS/Art/Materials/TrailDeath.mat
-  artifactKey: Guid(a74eef6270cec6b4c9dfed0e7aa93cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/TrailDeath.mat using Guid(a74eef6270cec6b4c9dfed0e7aa93cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '342516a6751bdc99a5d88fb7b2e5da17') in 0.0198283 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/ModAssets/Materials/HatMaterials/WizardHatMaterial.mat
-  artifactKey: Guid(620d51c84c6b5432e8cad9adb5edfc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/HatMaterials/WizardHatMaterial.mat using Guid(620d51c84c6b5432e8cad9adb5edfc64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '379c800da791873ffb810da5704f222c') in 0.0181071 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat
-  artifactKey: Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat using Guid(9875a245ac49007498213638a307faa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef59feb84448fb2c7f45e2681812e712') in 0.0202454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/FPS/Prefabs/Level/Walls/Wall_Corner.prefab
-  artifactKey: Guid(8a7b575196771b94e931b1a43820d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Walls/Wall_Corner.prefab using Guid(8a7b575196771b94e931b1a43820d2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a7aef93cadbc2e0633dabd1ea0301ff') in 0.0205017 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrailAdditive.mat
-  artifactKey: Guid(171307e20eda5c34d9c1428102dbe4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrailAdditive.mat using Guid(171307e20eda5c34d9c1428102dbe4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb1eb9bef2e37cbe647b6afb3d975a8f') in 0.0294531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph
-  artifactKey: Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/PhysicalMaterial3DsMax/PhysicalMaterial3DsMaxTransparent.shadergraph using Guid(1a207e3bee00db44b940e6f362a8e148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8953a99f4c3fffa549e6b10830d44a0e') in 1.1071532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashBlue.prefab
-  artifactKey: Guid(4f5d4e5eaa0e5104791549cea3dc3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/VFX/VFX_MuzzleFlashBlue.prefab using Guid(4f5d4e5eaa0e5104791549cea3dc3f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9897cf30d636de0123c773c80fb4eed9') in 0.0112022 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/ModAssets/Models/HatMeshes/WizardHatMesh.fbx
-  artifactKey: Guid(41fa7087e84034b719aeb52d1260a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Models/HatMeshes/WizardHatMesh.fbx using Guid(41fa7087e84034b719aeb52d1260a81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '666dd8981d3e5f4c5c563b3221d77131') in 0.0568713 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ModAssets/Materials/TrailMaterials/RainbowTrailMaterial.mat
-  artifactKey: Guid(711224fcf6d6c40faafe946b2f78b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/TrailMaterials/RainbowTrailMaterial.mat using Guid(711224fcf6d6c40faafe946b2f78b361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44e79bc5d60bc721c6b19d226258f0cc') in 0.0344565 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat
-  artifactKey: Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/TerrainLit.mat using Guid(594ea882c5a793440b60ff72d896021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ee644c499c19b919cc5dea9a6f5421e') in 0.0183207 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ModAssets/Materials/Custom Materials/Neon Green.mat
-  artifactKey: Guid(0030b1f081f074ea79e4c8398f97fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/Custom Materials/Neon Green.mat using Guid(0030b1f081f074ea79e4c8398f97fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7df6bd978c283b1f84717973bfebbd9') in 0.0208798 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/FPS/Art/Materials/VFX/SmokeAngry.mat
-  artifactKey: Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/SmokeAngry.mat using Guid(c652749532525cf40a10b2c90cd662c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bcc4436f11e8f8aab8d9f90ce338cf58') in 0.0534794 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FPS/Art/Materials/Weapons/Gun.mat
-  artifactKey: Guid(17a7e49545726f94f9d0b396b9b6d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Weapons/Gun.mat using Guid(17a7e49545726f94f9d0b396b9b6d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '508f8e8edaa46432652bcc1c83baa149') in 0.0235233 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FPS/Art/Materials/VFX/DiskExplosionRange.mat
-  artifactKey: Guid(4f2fb46f738b103429ec2625eeb40639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/DiskExplosionRange.mat using Guid(4f2fb46f738b103429ec2625eeb40639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09fb668dbe7db1450dab6a14a7545f88') in 0.1331921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph
-  artifactKey: Guid(cbd3e1cc4ae141c42a30e33b4d666a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree9_URP.shadergraph using Guid(cbd3e1cc4ae141c42a30e33b4d666a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fffecb419b4c9b6e3d3828dbdc17f2bd') in 1.6282531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSparkSmoke.mat
-  artifactKey: Guid(6544598601d9df94e8879c1c8889d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSparkSmoke.mat using Guid(6544598601d9df94e8879c1c8889d5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c284b396ee61303449d2889217c35cdb') in 0.0346119 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgFPS_PlasmaRain/Weapon_PlasmaRain.prefab
-  artifactKey: Guid(c609617ffdf6ea541b74fe638832c38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_PlasmaRain/Weapon_PlasmaRain.prefab using Guid(c609617ffdf6ea541b74fe638832c38f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'c944e3d684e041c806251ed0d05229b9') in 0.2010633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 308
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/ModAssets/Materials/HatMaterials/TopHatMaterial.mat
-  artifactKey: Guid(3869da5c1b38e487aaa31c9021e4134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/HatMaterials/TopHatMaterial.mat using Guid(3869da5c1b38e487aaa31c9021e4134f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74ecd237caa9e1c18f6d8fafcdbe3214') in 0.0220431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/FPS/Art/Materials/Skybox.mat
-  artifactKey: Guid(dbc92a4fb93cbec44b044e6a6ea325ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Skybox.mat using Guid(dbc92a4fb93cbec44b044e6a6ea325ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef24849afc621adc54fe840af81774a1') in 0.0526103 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Models/Weapon_Quasar.fbx
-  artifactKey: Guid(478901a0d1aac354688e61771dc69de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Quasar/Quasar_MeshAndTexture/Models/Weapon_Quasar.fbx using Guid(478901a0d1aac354688e61771dc69de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8546e2bcca3948404ae59f8584be6fa8') in 0.077987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AddOns/MgFPS_Molt/Weapon_Molt.prefab
-  artifactKey: Guid(d6a1befbed563f04f892fc096959b96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Molt/Weapon_Molt.prefab using Guid(d6a1befbed563f04f892fc096959b96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'c67b5223b69173ad36a51c5e771542d7') in 0.2333462 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 211
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Materials/Haku_AmmoCube.mat
-  artifactKey: Guid(2224835930e384241bbae9ae2e363cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Haku/HakuMeshesAndTextures/Materials/Haku_AmmoCube.mat using Guid(2224835930e384241bbae9ae2e363cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '788007d74908843b528e860580ae0cda') in 0.0202014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FPS/Art/Materials/Weapons/WeaponPistol.mat
-  artifactKey: Guid(0c55f53a7bb3c354ababeb18b89c2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Weapons/WeaponPistol.mat using Guid(0c55f53a7bb3c354ababeb18b89c2fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29a725fd1b6bf40295565ac61ea68fdc') in 0.0228819 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/FPS/Art/Materials/VFX/Projectile_red.mat
-  artifactKey: Guid(fe10a01f7f670b144936b99b7a5a468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/Projectile_red.mat using Guid(fe10a01f7f670b144936b99b7a5a468f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7def9bc6d3dee6ac452b82c4afb7a4d1') in 0.0329488 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ModAssets/Materials/Custom Materials/Glass Clear.mat
-  artifactKey: Guid(0a7aee634f0a04f16a55b768e33e5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/Custom Materials/Glass Clear.mat using Guid(0a7aee634f0a04f16a55b768e33e5040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b601f0b5a884b046df9b6ce94c20095d') in 0.7322162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner_Inverted.prefab
-  artifactKey: Guid(89ba3c7a14290654fb1dd3b4e0df768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Steps/ShortSteps_Corner_Inverted.prefab using Guid(89ba3c7a14290654fb1dd3b4e0df768b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ecc7427b928557dfc21bbbf5e19f69e') in 0.0287737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 148
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/FPS/Prefabs/Level/Steps/ShortSteps_Inverted.prefab
-  artifactKey: Guid(ed3df5433ae26c54e957a9626daf8332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Steps/ShortSteps_Inverted.prefab using Guid(ed3df5433ae26c54e957a9626daf8332) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3ad8bf6528a2a8ba5dc2d359fba6de0') in 0.0276563 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/FPS/Prefabs/Level/Rooms/Room_Altar.prefab
-  artifactKey: Guid(115dbd335d944e049a14c0345b664cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Rooms/Room_Altar.prefab using Guid(115dbd335d944e049a14c0345b664cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a88b8eb475998b4282be0e4a63f57152') in 0.1038573 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 815
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/SmokeTexture.mat
-  artifactKey: Guid(4641b24e9c456444488c035a1073660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/SmokeTexture.mat using Guid(4641b24e9c456444488c035a1073660e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c545fe3f740b9f38fa9ba8beb32eb1a') in 0.0224905 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRainDiscMat.mat
-  artifactKey: Guid(2eec46af5f531cb4dbc90a3f3b7e61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_PlasmaRain/PlasmaRainMeshAndTextures/PlasmaRainDiscMat.mat using Guid(2eec46af5f531cb4dbc90a3f3b7e61cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '665062bec641f37ba8ac1c6134bcaa32') in 0.0479712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/ModAssets/Materials/Custom Materials/Metal Copper.mat
-  artifactKey: Guid(e7c453d829e9a4662a456d2da16a7e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ModAssets/Materials/Custom Materials/Metal Copper.mat using Guid(e7c453d829e9a4662a456d2da16a7e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b359b464fe26197997a12068fdfaa2') in 0.019163 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Models/Thunderlight.fbx
-  artifactKey: Guid(7de6d2d9d55159146808110f9afcf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Models/Thunderlight.fbx using Guid(7de6d2d9d55159146808110f9afcf62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83a8f157cc2388832f8fe2c8fc97b38c') in 0.0527405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/FireballerAlphaBlended.mat
-  artifactKey: Guid(46338ae9510be0c4c8183fac8c3a9cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/Materials/FireballerAlphaBlended.mat using Guid(46338ae9510be0c4c8183fac8c3a9cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e4f211d2c7008b0f301326c26e62088') in 0.0246712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/AddOns/MgFPS_Fireballer/FireballerMeshesAndTextures/M_FireballerTransparent.mat
-  artifactKey: Guid(2ee4e4fecdbafc640b58d24cf619788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Fireballer/FireballerMeshesAndTextures/M_FireballerTransparent.mat using Guid(2ee4e4fecdbafc640b58d24cf619788a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '917bdeb9497c62c5c5611f72dc17dd68') in 0.0964915 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat
-  artifactKey: Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpriteMask-Default.mat using Guid(15d0c3709176029428a0da2f8cecf0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab8f4e4b27d2197060df66cf01c18a56') in 0.0093456 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinBladeJets_Royal.mat
-  artifactKey: Guid(bd572209b074fc64087f8fcd9e0d0ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_TwinBladeJets_Royal.mat using Guid(bd572209b074fc64087f8fcd9e0d0ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d91a3956b9b3196fbae3231b07c0c34') in 0.0704109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/FPS/Art/Materials/VFX/FakeShadowBlob.mat
-  artifactKey: Guid(700c8e4508ea3b34999c1917db3d4424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/FakeShadowBlob.mat using Guid(700c8e4508ea3b34999c1917db3d4424) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ddd09e54d1b439be5f25259b6e29ee1') in 0.0526051 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Materials/Thunderlight_OverheatMaterial.mat
-  artifactKey: Guid(3d7844b73c1f1f84f9e051de300f42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_MeshandTextures/Materials/Thunderlight_OverheatMaterial.mat using Guid(3d7844b73c1f1f84f9e051de300f42cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '269a9e7527f19de4e01a338dfd4319f7') in 0.1070279 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_RocketLauncher_Explosion.prefab
-  artifactKey: Guid(d04a4d2c984a2c341b05b144eea2912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Prefabs/VFX_RocketLauncher_Explosion.prefab using Guid(d04a4d2c984a2c341b05b144eea2912c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '4897cbf14f7ed17efd23317eada1e842') in 0.1990926 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot4_Royal.mat
-  artifactKey: Guid(ac4a2335400513a46a51813967a14232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot4_Royal.mat using Guid(ac4a2335400513a46a51813967a14232) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a9d95d70f2c67cb3abe1f1bbcd5d741') in 0.0303888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FPS/Prefabs/Level/BaseObjects/Wall_Door_Mesh.prefab
-  artifactKey: Guid(81f93335543589a4f91b584e567ac59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/BaseObjects/Wall_Door_Mesh.prefab using Guid(81f93335543589a4f91b584e567ac59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f176a8879de06a9087d4662844c4d86') in 0.0211756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Sparks.mat
-  artifactKey: Guid(9c38a749a5755064e819096af5a8b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Sparks.mat using Guid(9c38a749a5755064e819096af5a8b2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d60ff6ee02771254d6d07b24d4932c4') in 0.0245381 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
-  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d2b97399c438021a6db1c8a71283a36') in 0.0342734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Sparks_Aurous.mat
-  artifactKey: Guid(0db08c87191088f45a92699b5f0a80ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Sparks_Aurous.mat using Guid(0db08c87191088f45a92699b5f0a80ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '008e75ae77c3787b925ee008ad5d8c53') in 0.0189892 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_MuzzleFlash_Slash.mat
-  artifactKey: Guid(12d43f32c4100f74db3ad1861ed024b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_MuzzleFlash_Slash.mat using Guid(12d43f32c4100f74db3ad1861ed024b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6ded04494d41beafbc8b5774d3a4716') in 0.0219396 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_TV_Screen_Royal.mat
-  artifactKey: Guid(d1412691d4324eb478240fb49dee0a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_TV_Screen_Royal.mat using Guid(d1412691d4324eb478240fb49dee0a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2a4d92bafa1018695fbdf77b78a3662') in 0.0222757 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_SingleJet_Royal.mat
-  artifactKey: Guid(4e3885f31173a1747be183f2de0eaffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Navigation_Module_SingleJet_Royal.mat using Guid(4e3885f31173a1747be183f2de0eaffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2aaa67da3dbbf2d5fb9b698330fa960e') in 0.0695689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat
-  artifactKey: Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/ProBuilderDefault.mat using Guid(c22777d6e868e4f2fb421913386b154e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1146e4ec6214cacf3ed04d85502f1b90') in 0.0311624 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/FPS/Art/Materials/Enemies/HoverBot_Eye.mat
-  artifactKey: Guid(e6fdfd4e017234d43ac116abee8fa90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Enemies/HoverBot_Eye.mat using Guid(e6fdfd4e017234d43ac116abee8fa90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24fd2de7d7e8ffab36810b03463d5247') in 0.024618 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
-  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19e752e5b79039bc3bf59c45159f634f') in 0.0193817 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_ElectricBeam.mat
-  artifactKey: Guid(1616b94650122434d86079f760995738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Quasar/Quasar_VFX/Materials/Quasar_ElectricBeam.mat using Guid(1616b94650122434d86079f760995738) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '723700eb2471ad5f565e9a5f084cc8d6') in 0.0317611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat
-  artifactKey: Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/SimpleLit.mat using Guid(6a1143ee683302f4aa628c052723efc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5534adc2b0c2123a1c5df21314fff2de') in 1.0143397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_Charge.mat
-  artifactKey: Guid(e03ea77bd9205f54eb9a98515297446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/VFX_Railgun_Charge.mat using Guid(e03ea77bd9205f54eb9a98515297446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55eb2338a978b80c4c4855b6ce9a2344') in 0.0197854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSpark.mat
-  artifactKey: Guid(d3bc6cdfd54712e419f725aab6e580fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Haku/Haku_VFX/Materials/Haku_BulletSpark.mat using Guid(d3bc6cdfd54712e419f725aab6e580fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0708ee7879334179b7399f6e8ded2452') in 0.0406894 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat
-  artifactKey: Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/FullscreenInvertColors.mat using Guid(78a08787ca30045abb69f6f7dd878e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0727e875c35a4fee3d7a96dbb5501a3') in 0.2988955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph
-  artifactKey: Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph using Guid(a3d800b099a06e0478fb790c5e79057a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddda0d3bc444fada934153796638ede4') in 1.3461787 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/CodeMonkey/KeyDoorSystem/Materials/DoorLockTumblerBlue.mat
-  artifactKey: Guid(da6ae708ba7cab340acbf871a456aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodeMonkey/KeyDoorSystem/Materials/DoorLockTumblerBlue.mat using Guid(da6ae708ba7cab340acbf871a456aac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06fba71bba837623ebc30a783301328d') in 0.0215164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Materials/Vaporizer_Main.mat
-  artifactKey: Guid(96db4fa30e575834480ef84a1ecf66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Vaporizer/VaporizerMeshAndTexture/Materials/Vaporizer_Main.mat using Guid(96db4fa30e575834480ef84a1ecf66b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a0848e2b75d7ac3210010939e3228f6') in 0.0278417 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/FPS/Prefabs/Level/Walls/Wall_Window.prefab
-  artifactKey: Guid(726c5e13e3c5f3144bf1cabe65f5a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Walls/Wall_Window.prefab using Guid(726c5e13e3c5f3144bf1cabe65f5a638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae1b7e52645543c35a2c7bc980170783') in 0.0214425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/CodeMonkey/KeyDoorSystem/Materials/DoorLockTumblerGreen.mat
-  artifactKey: Guid(5e21860ea98f60644a9d4396d77aef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CodeMonkey/KeyDoorSystem/Materials/DoorLockTumblerGreen.mat using Guid(5e21860ea98f60644a9d4396d77aef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '288f7f3cb9dbebab1fd4e7d6cc98014e') in 0.0213387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
-  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0fbbfe11c58fd81e06ad2e6758b9bcd5') in 0.0077453 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_TV_Royal.mat
-  artifactKey: Guid(050fb5b95c171864b90546265adb0d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Detection_Module_TV_Royal.mat using Guid(050fb5b95c171864b90546265adb0d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52b91cd0f8bb7d68241f4e583c4b333c') in 0.0807503 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FPS/Art/Materials/VFX/DiskSpinning.mat
-  artifactKey: Guid(968af284edcef924bb56ad46d60123e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/DiskSpinning.mat using Guid(968af284edcef924bb56ad46d60123e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffda01dbd68a747c8df5c11689238af2') in 0.1996144 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher.mat
-  artifactKey: Guid(69b13df53c3c65b4488f8bc2f66872f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher.mat using Guid(69b13df53c3c65b4488f8bc2f66872f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1953b4944d1ab9bfc2868d934c9bedc') in 0.0199344 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/FPS/Art/Materials/Weapons/WeaponDisc_Transparent.mat
-  artifactKey: Guid(9ae6d1cb1fd13ec4e956f81a56ceccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/Weapons/WeaponDisc_Transparent.mat using Guid(9ae6d1cb1fd13ec4e956f81a56ceccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b6379c5fa5eb42cb547a2e0608e9b06') in 0.0224874 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot6.mat
-  artifactKey: Guid(4f7ad4893a7e4a84a82b81bdbf2ded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Weapon_Module_RocketLauncher_Slot6.mat using Guid(4f7ad4893a7e4a84a82b81bdbf2ded13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2880730ed38b4fa236477f3b4a2b44d') in 0.0077049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab
-  artifactKey: Guid(b318fabc73446b746a1005cede0c4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Weapons/Weapon_Blaster.prefab using Guid(b318fabc73446b746a1005cede0c4ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: '5c3e08af6cd6e114407e7227e0966649') in 0.0681691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 186
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/MachineYellow.mat
-  artifactKey: Guid(a86dea3f5dcc09f43ba894bb9a8680a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/Mg3D_Animated_Sci-fi/Materials/MachineYellow.mat using Guid(a86dea3f5dcc09f43ba894bb9a8680a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aafc3e4ec66a10cce1d1e6344f1529c4') in 0.0270303 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/FPS/Art/Materials/VFX/M_HealthPickup.mat
-  artifactKey: Guid(42997a46d4ce7ac48a673a5ae3d8ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/M_HealthPickup.mat using Guid(42997a46d4ce7ac48a673a5ae3d8ae68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9adb5296745c66f6eb5478233c02ab11') in 0.0683917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/FPS/Art/Materials/VFX/HealthCube.mat
-  artifactKey: Guid(a0798aa25b2a35247b262820a588a364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/HealthCube.mat using Guid(a0798aa25b2a35247b262820a588a364) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e07e917e346f8b2de871cd3cb2a9acc') in 0.0091429 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrianglesAdditive.mat
-  artifactKey: Guid(2a5ce89dfd5cb564b8ea65665f456ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Molt/Molt_VFX/Materials/MoltTrianglesAdditive.mat using Guid(2a5ce89dfd5cb564b8ea65665f456ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '992e3bb605c4d3345f7195cc871420c0') in 0.0224154 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/FPS/Art/Materials/VFX/JetPackTrail.mat
-  artifactKey: Guid(b06de00127b56814e9454c2d7d9f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/JetPackTrail.mat using Guid(b06de00127b56814e9454c2d7d9f139a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2bc2d54fa0b303d8cd07ab1be2ec887b') in 0.0457109 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/FPS/Prefabs/Level/Signs/Sign_Basic_Floor.prefab
-  artifactKey: Guid(509d754db50222f46b673c4778f267e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/Level/Signs/Sign_Basic_Floor.prefab using Guid(509d754db50222f46b673c4778f267e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bbb21ff76f103c92561616d9b5ba271') in 0.0203683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/FPS/Art/Materials/VFX/Projectile_green.mat
-  artifactKey: Guid(e4d0ea9642095ef4cb76e9b3c9f91eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Materials/VFX/Projectile_green.mat using Guid(e4d0ea9642095ef4cb76e9b3c9f91eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc09227f02c001caa1c56b3ca11010f0') in 0.0205165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/FPS/Prefabs/VFX/VFX_PickupSparkles.prefab
-  artifactKey: Guid(4d1efaa062e333f4cbc4c3564702d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Prefabs/VFX/VFX_PickupSparkles.prefab using Guid(4d1efaa062e333f4cbc4c3564702d135) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c8b4a939a1160cd08be11b536a5f0523') in 0.019334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AddOns/MgFPS_Haku/Weapon_Haku.prefab
-  artifactKey: Guid(3094dbae6d63c104fbb75631320e65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Haku/Weapon_Haku.prefab using Guid(3094dbae6d63c104fbb75631320e65c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
- -> (artifact id: 'ca3fbc5f492ce661cb4b1421b18140f3') in 0.3020804 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 184
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/VFX_MuzzleFlashOrange.prefab
-  artifactKey: Guid(7d68a310567b0ab41b0f0ba94f4ae677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Fireballer/Fireballer_VFX/VFX_MuzzleFlashOrange.prefab using Guid(7d68a310567b0ab41b0f0ba94f4ae677) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7dbaea44cc3bc7869183101dcf0ad67') in 0.0102828 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot5_Royal.mat
-  artifactKey: Guid(a558cfc9b55bedd49ae423bd72355aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss_Skins/Materials/Weapon_Module_RocketLauncher_Slot5_Royal.mat using Guid(a558cfc9b55bedd49ae423bd72355aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a01c38acfedb5cd2bd9cf1aaa9f9f61') in 0.0255081 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinBladeJets.mat
-  artifactKey: Guid(70de5fce2f8636a42b3f30e01f830885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Enemy_Boss/Materials/Navigation_Module_TwinBladeJets.mat using Guid(70de5fce2f8636a42b3f30e01f830885) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440ddc6396fa037d15590d94bab1b6ef') in 0.0301142 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Flash.mat
-  artifactKey: Guid(4d3d9e9d80dbff0488295c198d3d7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Thunderlight/Thunderlight_VFX/Materials/Flash.mat using Guid(4d3d9e9d80dbff0488295c198d3d7c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e6568ee429e38e4bb7f72171869dd93') in 0.0202132 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Spell_Aurous.mat
-  artifactKey: Guid(a8f82f31952edf14abcff5387055d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AddOns/MgFPS_Aurous/Aurous_VFX/Materials/Spell_Aurous.mat using Guid(a8f82f31952edf14abcff5387055d7ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e06327ee5602daaa963342d75be5ffa5') in 0.0224654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5280 unused Assets / (5.7 MB). Loaded Objects now: 6051.
+Memory consumption went from 139.7 MB to 134.0 MB.
+Total: 21.037100 ms (FindLiveObjects: 1.097500 ms CreateObjectMapping: 1.334300 ms MarkObjects: 15.191500 ms  DeleteObjects: 3.412600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
